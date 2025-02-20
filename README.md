@@ -1,70 +1,105 @@
-![travis](https://travis-ci.org/sachinchoolur/lg-fullscreen.svg?branch=master)
-![bower](https://img.shields.io/bower/v/lg-fullscreen.svg)
-![npm](https://img.shields.io/npm/v/lg-fullscreen.svg)
+# Nodejs #
 
-# Fullscreen module for [lightGallery](http://sachinchoolur.github.io/lightGallery/)
-A customizable, modular, responsive, lightbox gallery plugin for jQuery.
-![lightgallery](https://raw.githubusercontent.com/sachinchoolur/lightGallery/master/lib/lg.png)
+```bash
+# version: 1.0.0
 
- 
-Browser support
----
-lightgallery supports all major browsers including IE 9 and above..
-
-
-Installation
----
-#### Install with Bower
-
-You can install lightgallery fullscreen plugin using the [Bower](http://bower.io) package manager.
-
-```sh
-$ bower install lg-fullscreen --save
+# run serve with nodemon
+npm run serve
 ```
 
-#### npm
+#### 1 - Basic Server Setup
 
-You can also find lightgallery fullscreen plugin on [npm](http://npmjs.org).
+* Set up a basic server using Node.js and Express.js
+* Handle HTTP requests and responses
+* Serve static files and HTML pages
+<!--* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)-->
 
-```sh
-$ npm install lg-fullscreen
-```
-#### Download from Github
+#### 2 - User Registration and Authentication
 
-You can also directly download lg-fullscreen from github.
+* Implement user registration and login functionality
+* Use bcrypt for password hashing and authentication
+* Store user information in a MongoDB database
 
-#### CDN
-If you prefer to use a CDN you can load files via [jsdelivr](https://www.jsdelivr.com/projects/lg-fullscreen)
+#### 3 - RESTful API Development
 
-#### Include Javascript files
-Include lg-fullscreen plugin after lightgallery.min.js.
-``` html
-<body>
-   ---
-    <!-- Include lightGallery -->
-    <script src="js/lightgallery.min.js"></script>
-    
-    <!-- Include lg-fullscreen -->
-    <script src="js/lg-fullscreen.min.js"></script>
-    
-    <!-- Include other lightgallery plugins (Optional) -->
-    <script src="js/lg-thumbnail.min.js"></script>
-</body>  
-```
+* Design and develop a RESTful API using Express.js
+* Implement CRUD operations for a specific resource (e.g., users, products)
+* Handle authentication and authorization for API endpoints
 
-[Demos](http://sachinchoolur.github.io/lightGallery/demos/videos.html)
-----
+#### 4 - Real-Time Chat Application
+
+* Build a real-time chat application using Socket.IO
+* Enable users to send and receive messages in real-time
+* Implement features like private messaging and online user status
+
+#### 5 - Image Upload and Processing
+
+* Allow users to upload images to the server
+* Use libraries like Multer for handling file uploads
+* Implement image processing functionalities using libraries like Sharp
+
+#### 6 - Payment Gateway Integration
+
+* Integrate a payment gateway (e.g., Stripe) into your application
+* Implement payment processing for products or services
+* Handle successful and failed payment transactions
+
+#### 7 - Task Management System
+
+* Create a task management system with features like creating, updating, and deleting tasks
+* Implement task assignment and tracking functionalities
+* Use MongoDB for storing task data
+
+#### 8 - Blogging Platform
+
+* Develop a blogging platform with features like creating, editing, and deleting blog posts
+* Implement user authentication and authorization for creating and managing blog posts
+* Use a database like MongoDB to store blog post data
+
+#### 9 - Social Media Authentication
+
+* Allow users to authenticate using social media platforms (e.g., Facebook, Google)
+* Implement OAuth authentication for social media integration
+* Store user information and handle authentication tokens
+
+#### 10 - E-commerce Store
+
+* Build an e-commerce store with features like product listing, searching, and filtering
+* Implement a shopping cart functionality
+* Integrate payment gateways for processing orders
   
-[Docs](http://sachinchoolur.github.io/lightGallery/docs/api.html#lg-fullscreen)
------
+#### 11 - File Sharing Application
 
-License
----
+* Develop a file sharing application using Node.js and Express.js
+* Enable users to upload and download files securely
+* Implement file access control and user permissions
 
-#### Commercial license
-If you want to use lightGallery to develop commercial sites, themes, projects, and applications, the Commercial license is the appropriate license. With this option, your source code is kept proprietary. Purchase a lightGallery Commercial License at [uplabs.com/posts/lightgallery-plugin](https://www.uplabs.com/posts/lightgallery-plugin)
+#### 12 - Task Scheduler
 
-#### Open source license
+* Create a task scheduler application that allows users to schedule and manage tasks
+* Implement features like recurring tasks, notifications, and reminders
+* Use a database for storing task and scheduling information
 
-If you are creating an open source application under a license compatible with the GNU GPL license v3, you may use this project under the terms of the GPLv3.
+#### 13 - Polling Application
 
+* Build a polling application where users can create and participate in polls
+* Implement real-time updates of poll results using Socket.IO
+* Store poll data and display results in real-time
+
+#### 14 - Weather App
+
+* Develop a weather application that fetches weather data from an API
+* Allow users to search for weather information based on location
+* Display weather forecasts and related information
+
+#### 15 - URL Shortener
+
+* Create a URL shortener application that generates short URLs for long URLs
+* Implement redirection from short URLs to the original URLs
+* Store URL mappings in a database for retrieval and redirection
+
+#### 16 - Task Management API
+
+* Build a RESTful API for a task management system
+* Implement endpoints for creating, updating, and deleting tasks
+* Use authentication and authorization for secure access to the API
